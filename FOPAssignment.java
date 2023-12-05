@@ -19,6 +19,9 @@ public class FOPAssignment {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+        // Yeefong
+        System.out.println("Hellow World");
         try {
             PrintWriter merchandiseWriter = new PrintWriter(new FileWriter("MerchandiseOrder.txt"));
             PrintWriter treeWriter = new PrintWriter(new FileWriter("TreePlantOrder.txt"));
