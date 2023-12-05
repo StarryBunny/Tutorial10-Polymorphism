@@ -20,9 +20,7 @@ public class FOPAssignment {
      */
     public static void main(String[] args) {
 
-        // Yeefong
-        System.out.println("Hellow World");
-        System.out.println("HI jsajj");
+
         try {
             PrintWriter merchandiseWriter = new PrintWriter(new FileWriter("MerchandiseOrder.txt"));
             PrintWriter treeWriter = new PrintWriter(new FileWriter("TreePlantOrder.txt"));
