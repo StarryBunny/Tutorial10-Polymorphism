@@ -13,14 +13,17 @@ import java.util.Scanner;
  *
  * @author User
  */
+import java.sql.*;
 public class FOPAssignment {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    
+     public void PointShop() {
 
-
+        
+        
         try {
             PrintWriter merchandiseWriter = new PrintWriter(new FileWriter("MerchandiseOrder.txt"));
             PrintWriter treeWriter = new PrintWriter(new FileWriter("TreePlantOrder.txt"));
@@ -87,6 +90,10 @@ public class FOPAssignment {
         } catch (IOException e) {
             e.printStackTrace();
         }
+       
+        }
+        
     }
+
     
-}
+
